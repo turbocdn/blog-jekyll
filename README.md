@@ -1,52 +1,56 @@
-```thor jekyll:new New Post Title```
-
-# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
-
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
-
-The Jekyll organization claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
-
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
-
-```shell
-.
-├── _config.yml
-├── _data
-├── _plugins
-├── _tabs
-└── index.html
-```
-
-In order to save your time, and to prevent you from missing some files when copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
-
-## Prerequisites
-
-Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
-
-## Installation
-
-[**Use this template**][use-template] to generate a brand new repository and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
-
-```
-$ bundle
-```
-
-## Usage
-
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+### **SamirPaul1.github.io** [![Build and deploy](https://github.com/SamirPaul1/SamirPaul1.github.io/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/SamirPaul1/SamirPaul1.github.io/actions/workflows/pages-deploy.yml)
 
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Live Demo:  **https://samirpaul1.github.io** 
 
 
 
-Additional Links:
-1. [CREATE JEKYLL POSTS FROM THE COMMAND LINE](https://gist.github.com/ichadhr/0b4e35174c7e90c0b31b)
-2. https://github.com/keithmifsud/jekyll-target-blank
-3. [Comma Separator for Tags](https://delim.co/#)
+
+Created using [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy).
+
+Steps:
+1. Install [Jekyll](https://jekyllrb.com/docs/installation/windows/).
+2. Make new post ```thor jekyll:new New Post Title```.
+3. Run ```bundle``` to build static codes inside ```/_site``` directory.
+4. Run ```bundle exec jekyll s``` to preview the site. 
+5. To upgrade this theme change ```gem "jekyll-theme-chirpy", "~> 5.3", ">= 5.3.1"``` with the [Chirpy Starter](https://github.com/cotes2020/chirpy-starter/blob/main/Gemfile) and run ```bundle update jekyll-theme-chirpy```.
+6. Use GitHub Actions to deploy on GitHub Pages and **Delete Gemfile.lock**.
+
+
+
+---
+
+
+
+More instructions:
+1. [Theme's Documentation](https://github.com/cotes2020/jekyll-theme-chirpy#documentation)
+2. [Getting Started](https://chirpy.cotes.page/posts/getting-started/)
+3. [Writing a New Post](https://chirpy.cotes.page/posts/write-a-new-post/)
+4. In ```_config.toml``` change ```url: https://samirpaul.in```.
+5. Add all images to ```/assets/img``` and refer as ```/assets/img/File_Name```.
+6. [overriding-theme-defaults](https://jekyllrb.com/docs/themes/#overriding-theme-defaults)
+7. [CREATE JEKYLL POSTS FROM THE COMMAND LINE](https://gist.github.com/ichadhr/0b4e35174c7e90c0b31b)
+8. https://github.com/keithmifsud/jekyll-target-blank
+9. [Comma Separator for Tags](https://delim.co/#)
+10. For better performance use [jekyll-responsive-image](https://github.com/wildlyinaccurate/jekyll-responsive-image)
+11. https://github.com/lavas-project/jekyll-pwa
+12. https://planetjekyll.github.io/plugins/top
+13. https://github.com/planetjekyll/awesome-jekyll-plugins
+14. https://github.com/cotes2020/jekyll-theme-chirpy/issues/739#issuecomment-1316300007
+15. https://github.com/cotes2020/jekyll-theme-chirpy/issues/created_by/SamirPaul1
+16. https://github.com/cotes2020/jekyll-theme-chirpy/issues?q=is%3Aissue+author%3Asbkv1+is%3Aclosed
+17. https://github.com/nshidqi/nshidqi.github.io
+
+
+
+
+
+<p align="center">
+  <a href="#"> <img src="/assets/img/long-banner-breck-img-readme-unnamed.png" width="100%"/> </a>
+</p>
+
+#### PageSpeed Insights
+
+<p align="center">
+  <a href="#"> <img src="/assets/img/report-pagespeed-web-dev.jpeg"/> </a>
+</p>

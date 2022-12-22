@@ -1,8 +1,16 @@
 ---
 layout: post
-title: "Computer Networks Notes"
+title: Computer Networks Notes
+description: Computer Networks Notes
+image: 
+  path: /assets/img/computer-networks-preview-blog-banner.webp
+  width: 792
+  height: 198
+  alt: Computer Networks Notes
 categories: [Computer Science]
-tags: [blog, coding, computer-science, coding,computer-science,computer-networks,computer-networks-notes,notes,computernetwork,computernetworking,computer,ipv,icnd,computertechnology,ccna,routingandswitching,networking,osi-model,computernetworkingtechnology]
+tags: [blog, coding, computer-science, computer-networks,computer-networks-notes,notes,computernetwork,computernetworking,computer,ipv,icnd,computertechnology,ccna,routingandswitching,networking,osi-model,computernetworkingtechnology]
+published: true
+sitemap: true
 pin: false
 ---
 
@@ -1812,5 +1820,5 @@ Routers network addressing is hierarchical, packets do not normally cycle and th
 
 ### PDF Note👇
 
-<object data="https://samirpaulb.github.io/assets/computer_networking_notes_for_tech_placements.pdf" type="application/pdf" width="100%" height="700px">
+<object data="/assets/doc/computer_networking_notes_for_tech_placements.pdf" loading="lazy" type="application/pdf" width="100%" height="700px">
 </object>

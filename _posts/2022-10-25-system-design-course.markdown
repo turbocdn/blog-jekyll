@@ -1,8 +1,16 @@
 ---
 layout: post
-title: "System Design Course"
+title: System Design Course
+description: System Design Course
+image: 
+  path: /assets/img/Getting-Started-with-System-Design-samirpaulb-assets.webp
+  width: 661
+  height: 132
+  alt: System Design Course
 categories: [System Design]
-tags: [system-design,distributed-systems,hashing,caching,distributed-systems,sql,cdn,storage,rest-api,scalability,proxy-server,databases,design-patterns,transactions,sharding,nosql-database,design-system,database-replication,design-interviews,cap-theorem,system-design-interviews,api-gateway,rest,graphql,grpc,message-queues,monoliths,microservices]
+tags: [system-design,distributed-systems,hashing,caching,sql,cdn,storage,rest-api,scalability,proxy-server,databases,design-patterns,transactions,sharding,nosql-database,design-system,database-replication,design-interviews,cap-theorem,system-design-interviews,api-gateway,rest,graphql,grpc,message-queues,monoliths,microservices, coding]
+published: true
+sitemap: true
 pin: false
 ---
 
@@ -12,7 +20,9 @@ pin: false
 
 > Learn how to design systems at scale and prepare for system design interviews.
 
-
+<p align="center">
+<a class="btn-lang" href="https://samirpaulb.github.io/assets/System_Design.pdf" target = "_blank">Download PDF</a>
+</p>
 
 # Table of contents
 
@@ -5757,4 +5767,3 @@ Here are the resources that were referenced while creating this course.
 
 <sup> Blog Disclaimer: This webpage is a modification of [@karanpratapsingh](https://github.com/karanpratapsingh)'s [system-design](https://github.com/karanpratapsingh/system-design) repository with [CC BY-NC-ND 4.0](https://github.com/karanpratapsingh/system-design/commits/main/LICENSE) [license](https://drive.google.com/file/d/1XNunkcoiM90bUjI3LbM8giyVPWc8xVNE/view).</sup> 
 
-_All the diagrams were made using [Excalidraw](https://excalidraw.com) and are available [here](https://github.com/karanpratapsingh/system-design/tree/main/diagrams)._

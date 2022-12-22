@@ -1,12 +1,18 @@
 ---
 layout: post
-title: "List of Python Frameworks Libraries Software and Resources"
+title: List of Python Frameworks Libraries Software and Resources
+description: List of Python Frameworks Libraries Software and Resources
+image:
+  path: /assets/img/list-of-python-frameworks-libraries-software-and-resources-banner-image.jpg 
+  width: 661
+  height: 132
+  alt: List of Python Frameworks Libraries Software and Resources
 categories: [Python]
-tags: [blog, coding, computer-science, coding,computer-science,python,python-frameworks,python-libraries,python-softwares,python-resources]
+tags: [blog, coding, computer-science,python,python-frameworks,python-libraries,python-softwares,python-resources]
+published: true
+sitemap: true
 pin: false
 ---
-
-
 
 
 
@@ -16,7 +22,7 @@ pin: false
 > A curated list of awesome Python frameworks, libraries, software and resources.
 
 
-- [Awesome Python](#awesome-python)
+- [x] Awesome Python
     - [Admin Panels](#admin-panels)
     - [Algorithms and Design Patterns](#algorithms-and-design-patterns)
     - [ASGI Servers](#asgi-servers)
